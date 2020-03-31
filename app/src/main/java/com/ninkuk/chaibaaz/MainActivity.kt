@@ -25,14 +25,14 @@ class MainActivity : AppCompatActivity() {
         var selectedMilkType: Int = 0
 
         chai_cup_cutting_container.setOnClickListener {
-            changeCupColor(true, chai_cup_cutting)
-            changeCupColor(false, chai_cup_full)
+            chai_cup_cutting.setImageResource(R.drawable.ic_cutting_chai_cup_selected)
+            chai_cup_full.setImageResource(R.drawable.ic_cutting_chai_cup)
             selectedCup = 1
         }
 
         chai_cup_full_container.setOnClickListener {
-            changeCupColor(true, chai_cup_full)
-            changeCupColor(false, chai_cup_cutting)
+            chai_cup_full.setImageResource(R.drawable.ic_cutting_chai_cup_selected)
+            chai_cup_cutting.setImageResource(R.drawable.ic_cutting_chai_cup)
             selectedCup = 2
         }
 
@@ -93,19 +93,5 @@ class MainActivity : AppCompatActivity() {
                 sugar_measurement.text = sugarMeasurement.toString()
             }
         }
-    }
-
-    private fun changeCupColor(selected: Boolean, selectedCup: ImageView) {
-        val cupVector = VectorChildFinder(this, R.drawable.ic_cutting_chai_cup, selectedCup)
-        val cupBG = cupVector.findPathByName("cupBG")
-
-        val bgFillColor = if (selected) {
-            getColor(R.color.pale)
-        } else {
-            getColor(R.color.mudBrown)
-        }
-
-        cupBG.fillColor = bgFillColor
-        selectedCup.invalidate()
     }
 }
