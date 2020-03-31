@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F3E5B1</color>
+    <color name="colorPrimaryDark">#F3E5B1</color>
+    <color name="colorAccent">#F3E5B1</color>
+    
+    <color name="matchaGreen">#006752</color>
+    <color name="gold">#FCCC7A</color>
+    <color name="mudBrown">#973622</color>
+    <color name="pale">#F3E5B1</color>
+</resources>

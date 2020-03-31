@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chai Baaz</string>
+    <string name="people">How many people?</string>
+    <string name="size">Serving cup size?</string>
+    <string name="cutting">Cutting</string>
+    <string name="full">Full</string>
+    <string name="milk_type">Milk type?</string>
+    <string name="milk">Milk</string>
+    <string name="sugar">Sugar</string>
+    <string name="water">Water</string>
+    <string name="chai_patti">Chai Patti</string>
+</resources>

@@ -1,0 +1,64 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="163dp"
+    android:height="188dp"
+    android:viewportWidth="163"
+    android:viewportHeight="188">
+    <path
+        android:name="cupBG"
+        android:fillColor="#00FFFFFF"
+        android:pathData="M3,16l6,-5l19,-5l49,-3l50,2l28,6l5,5l-4,21l-5,30l-9,8l-3,23l-14,77l-9,7l-38,3l-29,-4l-11,-4l-11,-68l-5,-35l-10,-7l-4,-22l-3,-17l-2,-12z" />
+    <path
+        android:name="cupBorder0"
+        android:fillColor="#00000000"
+        android:pathData="M3,15.5a78.5,12.5 0,1 0,157 0a78.5,12.5 0,1 0,-157 0z"
+        android:strokeWidth="6"
+        android:strokeColor="#f3e5b1" />
+    <path
+        android:name="cupBorder1"
+        android:fillColor="#00000000"
+        android:pathData="M3,16l9,51 9,7L38,177s40,18 87,0L143,74l8,-7 9,-51"
+        android:strokeWidth="6"
+        android:strokeColor="#f3e5b1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:name="cupBorder2"
+        android:fillColor="#00000000"
+        android:pathData="M35.05,159.15s43.19,17.14 93.07,0"
+        android:strokeWidth="6"
+        android:strokeColor="#f3e5b1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:name="cupBorder3"
+        android:fillColor="#00000000"
+        android:pathData="M22,75.15s55.68,17.14 120,0"
+        android:strokeWidth="6"
+        android:strokeColor="#f3e5b1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:name="cupBorder4"
+        android:fillColor="#00000000"
+        android:pathData="M81,166.76L82,100"
+        android:strokeWidth="6"
+        android:strokeColor="#f3e5b1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:name="cupBorder5"
+        android:fillColor="#00000000"
+        android:pathData="M62.52,163.76L54.48,103"
+        android:strokeWidth="6"
+        android:strokeColor="#f3e5b1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:name="cupBorder6"
+        android:fillColor="#00000000"
+        android:pathData="M100.48,163.76L108.52,103"
+        android:strokeWidth="6"
+        android:strokeColor="#f3e5b1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
